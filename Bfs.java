@@ -26,7 +26,7 @@ public class Bfs {
 	}
 
 	public void bfs(int start, int v) {
-		ArrayDeque<Pair> queue = new ArrayDeque<Integer>();
+		ArrayDeque<Pair> queue = new ArrayDeque<>();
 		boolean[] isVisited = new boolean[v];
 
 		queue.add(new Pair(start, ""));
